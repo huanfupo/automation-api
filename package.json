@@ -1,0 +1,30 @@
+{
+  "name": "node-crawler",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Node.js 爬虫项目 —— 自动生成邮箱并注册 Claude.ai",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "lint": "eslint src/ --fix",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "keywords": [
+    "crawler",
+    "scraper",
+    "automation"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "winston": "^3.14.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.0",
+    "prettier": "^3.3.0"
+  }
+}
